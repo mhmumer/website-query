@@ -136,7 +136,8 @@ export default function Home() {
                 <span className="text-2xl font-bold">3</span>
                 <h3 className="text-xl font-bold">Get Instant Answer</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-center">
-                  Receive an accurate answer based on the article's content.
+                  Receive an accurate answer based on the article&apos;s
+                  content.
                 </p>
               </li>
             </ol>

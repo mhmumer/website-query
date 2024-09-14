@@ -21,11 +21,11 @@ export default function Home() {
     e.preventDefault();
     if (isClient && url) {
       // Redirect to the bot page with the article URL as a query parameter
-      router.push(`/bot?articleUrl=${encodeURIComponent(url)}`);
+      router.push(`/${url}`);
     }
   };
   return (
-    <div className="flex flex-col min-h-screen bg-black relative items-between">
+    <div className="flex flex-col min-h-screen bg-black relative items-between mx-auto">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <BookOpen className="h-6 w-6 mr-2" />
@@ -158,12 +158,14 @@ export default function Home() {
                   required.
                 </p>
               </div>
-              <Button
-                className="w-full max-w-sm font-bold text-base font-sans tracking-wider"
-                size="lg"
-              >
-                Start Now
-              </Button>
+              <Link href={"/"}>
+                <Button
+                  className="w-full max-w-sm font-bold text-base font-sans tracking-wider"
+                  size="lg"
+                >
+                  Start Now
+                </Button>
+              </Link>
             </div>
           </div>
         </section>

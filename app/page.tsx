@@ -29,7 +29,7 @@ export default function Home() {
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <BookOpen className="h-6 w-6 mr-2" />
-          <span className="font-bold">WebsiteQuery</span>
+          <span className="font-bold">Qurl</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
@@ -61,8 +61,8 @@ export default function Home() {
                   Get Instant Answers from Any Article
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Unlock the power of knowledge with WebsiteQuery. Ask questions
-                  about any article and get accurate answers instantly.
+                  Unlock the power of knowledge with Qurl. Ask questions about
+                  any article and get accurate answers instantly.
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
@@ -172,7 +172,7 @@ export default function Home() {
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-gray-500 dark:text-gray-400">
-          © 2023 WebsiteQuery. All rights reserved.
+          © 2023 Qurl. All rights reserved.
         </p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link

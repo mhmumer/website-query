@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "WebsiteQuery",
-  description: "Bot to answer your queries about any article",
+  title: "Qurl",
+  description: "Bot to answer your queries about any article.",
 };
 
 export default function RootLayout({
